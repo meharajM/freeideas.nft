@@ -1,5 +1,12 @@
 {
   "dependencies": {
     "@openzeppelin/contracts": "^4.4.1"
-  }
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "re-migrate": "truffle migrate --reset",
+    "console": "truffle console",
+  "test": "echo \"Error: no test specified\" && sexit 1"
+}
 }
